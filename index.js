@@ -36,10 +36,10 @@ function Contador(props) {
 function App() {
     return (
         <React.Fragment>
-            <h1>Vote no seu preferido</h1>
-            <Contador titulo="React" />
-            <Contador titulo="Angular" />
-            <Contador titulo="Vue" />
+            <h1>Aposte no time que vai ganhar</h1>
+            <Contador titulo="Lakers" />
+            <Contador titulo="Celtics" />
+            <Contador titulo="Heat" />
         </React.Fragment>
     );
 }
